@@ -1,0 +1,46 @@
+a{
+    margin-left: 30px;
+}
+.d{
+overflow: hidden;
+padding: 60px 0;
+
+white-space: nowrap;
+position: relative;
+white-space: nowrap; 
+}
+.s{
+display: inline block;
+animation: 5s slide infinite linear;
+white-space: nowrap;
+overflow: hidden; 
+}
+
+@keyframes marquee {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-50%)
+    }
+    
+}
+
+.d{
+    background-image: url(/cosmos-planet-5k-nv.jpg);
+    color: aqua;
+    text-align: center;
+}
+.x{
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    width: 10%;
+    height: 30%;
+    border-radius: 50px;
+}
+.x:hover{
+    background-color: aqua;
+    color: blue;
+}
